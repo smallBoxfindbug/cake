@@ -1,0 +1,28 @@
+2021-09-07 15:01:42,410 INFO [dump-all-ok] tunmall-mall.properties+DEFAULT_GROUP, 1621322190521, length=39, md5=d72583622c04276706b8c1d2743c94e1
+
+2021-09-07 15:01:42,430 INFO [dump-all-ok] tunmall-mall.properties+DEFAULT_GROUP, 1621323073499, length=37, md5=5b9ecd8e6ff0b798cd0cf7c48b2953bf
+
+2021-09-07 15:01:42,430 INFO [dump-all-ok] datasource.yml+dev, 1628128543346, length=185, md5=a6beb0d5eb20795419d1974303a2a0be
+
+2021-09-07 15:01:42,432 INFO [dump-all-ok] mybatis.yml+dev, 1621323909890, length=116, md5=3c8cba7df1687e1fbe635fdfa0352287
+
+2021-09-07 15:01:42,432 INFO [dump-all-ok] other.yml+dev, 1621323953629, length=150, md5=0b59c44d8aae6e8bfda416b2c37de9f5
+
+2021-09-07 15:01:42,432 INFO [dump-all-ok] tunmall-gateway.yml+DEFAULT_GROUP, 1621325590178, length=56, md5=002618b3a1c49608fcc3abb11300ddd3
+
+2021-09-07 15:01:42,445 INFO [dump-all-ok] oss.yml+DEFAULT_GROUP, 1621390464799, length=217, md5=ce49abd122af22e0527a3b6cffc94820
+
+2021-09-07 20:13:42,962 INFO [dump-all-ok] tunmall-mall.properties+DEFAULT_GROUP, 1621322190521, length=39, md5=d72583622c04276706b8c1d2743c94e1
+
+2021-09-07 20:13:42,977 INFO [dump-all-ok] tunmall-mall.properties+DEFAULT_GROUP, 1621323073499, length=37, md5=5b9ecd8e6ff0b798cd0cf7c48b2953bf
+
+2021-09-07 20:13:42,978 INFO [dump-all-ok] datasource.yml+dev, 1628128543346, length=185, md5=a6beb0d5eb20795419d1974303a2a0be
+
+2021-09-07 20:13:42,978 INFO [dump-all-ok] mybatis.yml+dev, 1621323909890, length=116, md5=3c8cba7df1687e1fbe635fdfa0352287
+
+2021-09-07 20:13:42,978 INFO [dump-all-ok] other.yml+dev, 1621323953629, length=150, md5=0b59c44d8aae6e8bfda416b2c37de9f5
+
+2021-09-07 20:13:42,978 INFO [dump-all-ok] tunmall-gateway.yml+DEFAULT_GROUP, 1621325590178, length=56, md5=002618b3a1c49608fcc3abb11300ddd3
+
+2021-09-07 20:13:42,978 INFO [dump-all-ok] oss.yml+DEFAULT_GROUP, 1621390464799, length=217, md5=ce49abd122af22e0527a3b6cffc94820
+

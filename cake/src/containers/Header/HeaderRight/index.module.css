@@ -1,0 +1,54 @@
+.headerRight {
+  display: flex;
+  position: relative;
+
+}
+
+.item {
+  width: 40%;
+  height: 60px;
+  line-height: 60px;
+  left: 80px;
+  font-size: 16px;
+  position: absolute;
+  z-index: 100;
+}
+
+.item:hover {
+  color: #d4b675;
+}
+
+.item:hover .ul {
+  display: block;
+}
+
+.ul {
+  width: 100%;
+  top: 60px;
+  display: none;
+  background-color: #fff;
+}
+
+.li {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  line-height: 40px ;
+  color: #000;
+  cursor: pointer;
+}
+
+.li:hover {
+  background-color: rgb(238,238,238);
+}
+.mounEnter {
+  cursor: pointer;
+}
+.mounEnter:hover {
+  color: #000 !important;
+}
+
+.username:hover {
+  color: #d4b675;
+}

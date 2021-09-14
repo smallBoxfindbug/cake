@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,2H;AACAA,UAAU,CAACC,kBAAD,CAAV,C","file":"components/un-components/topNavBar/topNavBar.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './components/un-components/topNavBar/topNavBar.vue'\ncreatePage(Page)"],"sourceRoot":""}

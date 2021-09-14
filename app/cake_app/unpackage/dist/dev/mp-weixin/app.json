@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/categories/categories",
+    "pages/cart/cart",
+    "pages/profile/profile",
+    "pages/cake/cake",
+    "pages/tea/tea",
+    "pages/gift/gift",
+    "pages/minute/minute",
+    "pages/my/my",
+    "pages/material/material",
+    "pages/material/platform/platform",
+    "pages/consulting/consulting"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "幸福西饼",
+    "navigationBarBackgroundColor": "#ffff7f",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position": "bottom",
+    "backgroundColor": "#ffff7f",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/index-active.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/categories/categories",
+        "iconPath": "static/tabbar/categories.png",
+        "selectedIconPath": "static/tabbar/categories-active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tabbar/cart.png",
+        "selectedIconPath": "static/tabbar/cart-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/profile.png",
+        "selectedIconPath": "static/tabbar/profile-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

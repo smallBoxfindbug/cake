@@ -1,0 +1,826 @@
+.profile {
+  width: 90%;
+  margin: 0px auto 0;
+}
+
+.btnTitle {
+  width: 95%;
+  position: fixed;
+  top: 170px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.btnLeft, .btnRight {
+  padding-right: 100px;
+  text-align: center;
+  color: rgb(141, 141, 141);
+}
+
+.btnLeft {
+  padding-right: 0px;
+  border-bottom: 1px solid rgb(141, 141, 141);
+}
+
+.jump {
+  width: 10%;
+  position: fixed;
+  top: 300px;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  color: #d4d4d4;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+  line-height: 30px;
+}
+
+.list:hover .line {
+  border: 1px solid #000;
+  width: 15px;
+  height: 1px;
+}
+
+.list:hover {
+  color: #000;
+}
+
+.line {
+  margin-left: 2px;
+  display: block;
+  height: 0px;
+  width: 0px;
+  transition: width 0.5s ease;
+}
+
+/* 设置整个页面宽度为BOM的宽度 */
+
+.page_content {
+  width: 100%;
+}
+
+/* 内容宽度设置为1200px、盒子居中、设置相对定位定位以便于后代的定位 */
+
+.aboutus_content {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* 使用固定定位、使其固定在页面上 、且设置层级使其总是处于页面的最上层*/
+
+.fix-title {
+  position: fixed;
+  top: 147px;
+  width: 1200px;
+  height: 20px;
+  z-index: 999;
+}
+
+/* 设置标题的定位、字体大小、字体颜色 */
+
+.fix_title p {
+  position: absolute;
+  font-size: 12px;
+  color: #8d8d8d;
+}
+
+/* 侧边导航ul的定位、高度、居中 */
+
+.menus ul {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 234px;
+  margin: auto;
+}
+
+/* 侧边导航li的定位 */
+
+.menus li {
+  position: relative;
+  padding: 2px;
+  margin: 5px;
+}
+
+/* 设置点击列表内a标签的字体颜色和字体大小 */
+
+.menus ul li a {
+  color: #d4d4d4;
+  font-size: 12px;
+}
+
+/* 列表后的小横条设置为行内块元素、垂直居中、背景颜色左外边距等 */
+
+.menus li i {
+  display: inline-block;
+  height: 1px;
+  margin-left: 2px;
+  vertical-align: middle;
+  background-color: #000;
+}
+
+/* jQuery需要用到的类，字体颜色为黑色 */
+
+.Mli {
+  color: #000000 !important;
+}
+
+/* About BLISS MALL整个模块的宽度、上内填充、和居中 */
+
+.intro1 {
+  width: 761px;
+  margin: 0 auto;
+  padding-top: 220px;
+}
+
+/* 设置About BLISS MALL模块下的图片居中和图片的高度 */
+
+.intro img {
+  text-align: center;
+  height: 562px;
+}
+
+/* About BLISS MALL模块下文字的样式设置：字体颜色、行高、上外边距 */
+
+.intro .box_content {
+  color: #191919;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+/* 设置About BLISS MALL模块下的小标题加粗 */
+
+.intro .box_content b {
+  font-weight: bolder;
+}
+
+/* 幸福大事记大标题的字体颜色、字体大小、字体居中 */
+
+.event_title {
+  color: #2e2e2e;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* 设置11 years板块的上外边距 */
+
+.event1 {
+  margin-top: 220px;
+}
+
+/* 幸福大事记下二级标题的字体大小、字体居中、外边距 */
+
+.event_subtitle {
+  font-size: 50px;
+  margin: 40px 0 50px 0;
+  text-align: center;
+}
+
+/* 幸福大事记二级标题下面的下划线的盒子设置字体居中和宽度 */
+
+.event_line {
+  text-align: center;
+  width: 100%;
+}
+
+/* 幸福大事记二级标题下面的下划线的样式设置：设为行内块元素、宽高背景颜色、下外边距 */
+
+.event_line i {
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: #191919;
+  margin-bottom: 80px;
+}
+
+/* 11 years. 下的图片盒子的定位、宽度、居中 */
+
+.img_box {
+  position: relative;
+  width: 557px;
+  margin: 0 auto;
+  text-align: left;
+}
+/* .img_box:last-of-type {
+  display: flex;
+} */
+/* 设置11 years标题的定位 */
+
+.event1_title {
+  position: absolute;
+  top: 176px;
+  left: -128px;
+}
+
+/* 11 years下小标题的字体大小、字体粗细、下外边距 */
+
+.event1_title .years {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+/* 11 years下2008的字体大小设置 */
+
+ .years span {
+  font-size: 50px;
+}
+
+/* 11 years 下副标题的字体大小设置 */
+
+.subtitle {
+  font-size: 12px;
+}
+
+/* 11 years下表格的样式设置：表格宽度、表格居中、表格上填充 */
+
+.event_list {
+  width: 557px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+table {
+  /*设置为表格布局*/
+  display: table;
+  /* 表格设置合并边框模型 */
+  border-collapse: separate;
+  /* 允许以特定的方式定义匹配某个区域的特定元素。 */
+  box-sizing: border-box;
+  /*属性设置相邻单元格的边框间的距离*/
+  border-spacing: 2px;
+  /* 边框颜色 */
+  border-color: grey;
+  /* 字体大小 */
+  font-size: 12px;
+}
+
+tbody {
+  /* 作为一个或多个行的分组来显示 */
+  display: table-row-group;
+  /* 垂直居中 */
+  vertical-align: middle;
+  /* 表格边框颜色继承父级的颜色，即grey */
+  border-color: inherit;
+}
+
+tr {
+  /* 定义表格的行 */
+  display: table-row;
+  /* 对其方式继承父级：即middle */
+  vertical-align: inherit;
+  /* 表格边框颜色继承父级的颜色，即grey */
+  border-color: inherit;
+  /* 行高 */
+  height: 28px;
+}
+
+td {
+  /* 让标签元素以表格单元格的形式呈现 */
+  display: table-cell;
+  /* 对其方式继承父级：即middle */
+  vertical-align: inherit;
+  /* 行高 */
+  height: 28px;
+}
+
+/* 设置表格第一列的字体颜色、粗细、表格宽度 */
+
+.title {
+  color: #191919;
+  font-weight: 700;
+  width: 12%;
+}
+
+/* 设置表格第二列的字体颜色，内填充 */
+
+.content {
+  color: #8d8d8d;
+  padding: 0px 26px 0px 16px;
+}
+
+/* 定义表格第三列的宽度 */
+
+.data {
+  width: 10%;
+}
+
+/* 定义表格第三列内容的下边框 */
+
+.data p {
+  border-bottom: 1px solid;
+}
+
+/* BLISS  MALL/BLISSCAKE  2019模块的宽度和居中 */
+
+.event2 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.event2 img {
+  width: 100%;
+}
+
+/* BLISS  MALL/BLISSCAKE  2019模块下的表格左边设置为行内块元素且设置了上外边距 */
+
+.event2 .left {
+  display: inline-block;
+  margin-top: 450px;
+}
+
+/* BLISS  MALL/BLISSCAKE  2019模块下的表格左边的图片设置宽高 */
+
+.event2 .left img {
+  width: 414px;
+  height: 575px;
+}
+
+/* BLISS  MALL/BLISSCAKE  2019模块下的表格右边设置为行内块元素且设置了上外边距和做内填充 */
+
+.event2 .right {
+  display: inline-block;
+  width: 50%;
+  padding-left: 60px;
+}
+
+/* 设置表格左边标题的字体大小、粗细、外边距 */
+
+.event2 .right .years {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 30px 0 17px 0;
+}
+
+/* 设置表格左边标题的小标题的字体大小 */
+
+.event2 .right .years span {
+  font-size: 50px;
+}
+
+/* 设置表格左边标题下的小标题的字体大小、下外边距 */
+
+.event2 .right .subtitle {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+/* BLISS  MALL/BLISSCAKE  2020模块的上外边距 */
+
+#event3 {
+  width: 80%;
+  margin: 1000px auto 0;
+}
+#event3 img {
+  width: 100%;
+}
+
+/* 企业文化模块的上内填充 */
+
+#culture {
+  margin-top: 300px;
+}
+
+/* 企业文化板块对其方式为居中对齐 */
+
+.box_center {
+  text-align: center;
+}
+
+/* 企业文化标题字体颜色、字体大小 */
+
+.culture .culture_title {
+  color: #2e2e2e;
+  font-size: 14px;
+}
+
+.culture .culture_subtitle {
+  font-size: 50px !important;
+  margin: 40px 0 50px 0;
+}
+
+/* 企业文化副标题的字体居中对齐、宽度为父元素的宽度 */
+
+.culture .culture_line {
+  text-align: center;
+  width: 100%;
+}
+
+/* 企业文化副标题下的下划线样式：行内块元素、宽度、高度、背景颜色、下外边距 */
+
+.culture .culture_line i {
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: #191919;
+  margin-bottom: 80px;
+}
+
+/* 企业文化图片父级盒子的样式：设置定位、宽度、字体右对齐、居中 */
+
+.culture .img_box {
+  position: relative;
+  width: 80%;
+  text-align: right;
+  margin: 0 auto;
+}
+
+/* 企业文化图片的宽高的设置 */
+
+ .img_box img {
+  width: 578px;
+  height: 791px;
+}
+
+.culture_title {
+  position: absolute;
+  top: 394px;
+  left: -185px;
+}
+
+ .slogon {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+ .slogon span {
+  font-size: 43px;
+}
+
+ .subtitle {
+  font-size: 12px;
+  text-align: left;
+}
+
+ .culture_list {
+  margin: 50px 0 0 0;
+  width: 578px;
+}
+
+ .title {
+  color: #191919;
+  font-weight: 700;
+  width: 14%;
+}
+
+ .content {
+  color: #8d8d8d;
+  padding: 0 26px 10px 16px;
+  text-align: left;
+}
+
+#feature3 {
+  margin-top: 250px;
+}
+
+ .feature3 p {
+  color: #191919;
+  text-align: center;
+}
+
+ .feature_title {
+  color: #2e2e2e;
+  font-size: 14px;
+}
+
+ .feature_subtitle {
+  font-size: 50px;
+  margin: 40px 0 50px 0;
+  color: #000;
+}
+
+ .feature_line {
+  text-align: center;
+  width: 100%;
+}
+
+.feature3 .feature_line i {
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: #191919;
+  margin-bottom: 80px;
+}
+
+.feature3 .img_box {
+  position: relative;
+  width: 80%;
+  left: 60px;
+  margin: 300px auto 0;
+}
+
+.feature3 .img_box img {
+  width: 565px;
+  height: 641px;
+  margin-left: -360px;
+}
+
+.feature3 .img_box .feature_list {
+  position: absolute;
+  top: 0;
+  left: 610px;
+  width: 400px;
+}
+
+.feature3 .img_box .feature_list .title {
+  color: #191919;
+  font-weight: 700;
+  width: 14%;
+}
+
+.feature3 .img_box .feature_list .content {
+  color: #8d8d8d;
+  padding: 0 26px 10px 16px;
+}
+
+.feature3 .img_box .content {
+  width: 565px;
+  margin-top: 38px;
+}
+
+.feature3 .img_box .content p {
+  color: #8d8d8d;
+  text-align: left;
+  padding: 5px 0;
+}
+
+.feature3 .title {
+  vertical-align: top;
+}
+
+#feature1 {
+  margin-top: 250px;
+}
+
+.feature1 .img_box {
+  position: relative;
+  width: 80%;
+  text-align: right;
+  margin: 0 auto;
+}
+
+.feature1 .img_box img {
+  width: 436px;
+  height: 597px;
+}
+
+.feature1 .img_box .feature1_title {
+  position: absolute;
+  top: 133px;
+  right: 427px;
+}
+
+.feature1 .img_box .feature1_title .slogon {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.feature1 .img_box .feature1_title .slogon span {
+  font-size: 43px;
+}
+
+.feature1 .img_box .feature1_title .subtitle {
+  font-size: 12px;
+  text-align: left;
+}
+
+.feature1 .img_box .content {
+  margin-top: 38px;
+  color: #8d8d8d;
+  position: absolute;
+  right: -20px;
+  text-align: left;
+  width: 436px;
+}
+
+.feature1 .img_box .content p {
+  padding: 5px 0;
+}
+
+#feature2 {
+  margin-top: 250px;
+}
+
+.feature2 .img_box {
+  position: relative;
+  left: 63px;
+  width: 80%;
+  text-align: left;
+  /* margin: 0 auto; */
+}
+
+.feature2 .img_box img {
+  width: 565px;
+  height: 774px;
+}
+
+.feature2 .img_box .feature2_title {
+  position: absolute;
+  top: 269px;
+  left: 466px;
+}
+
+.feature2 .img_box .feature2_title .slogon {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.feature2 .img_box .feature2_title .subtitle {
+  font-size: 12px;
+  text-align: left;
+}
+
+.feature2 .img_box .content {
+  text-align: left;
+  margin-top: 38px;
+  color: #8d8d8d;
+}
+
+.feature2 .img_box .content p {
+  display: inline-block;
+  text-align: left;
+  width: 565px;
+  padding: 5px 0;
+}
+
+.feature4 {
+  margin-top: 250px;
+}
+
+.feature4 .feature_title {
+  color: #2e2e2e;
+  font-size: 14px;
+}
+
+.feature4 .feature_subtitle {
+  font-size: 50px;
+  margin: 40px 0 50px 0;
+}
+
+.feature4 .feature_line {
+  text-align: center;
+  width: 100%;
+}
+
+.feature4 .feature_line i {
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: #191919;
+  margin-bottom: 80px;
+}
+
+.feature4 .img_box {
+  position: relative;
+  width: 70%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.feature4 .img_box img {
+  width: 419px;
+  height: 595px;
+}
+.feature_list {
+  margin-top: 50px;
+}
+.feature4 .img_box .feature_list {
+  position: absolute;
+  top: 0;
+  left: 436px;
+  width: 400px;
+} 
+.item img {
+  width: 100%;
+}
+.item  {
+  margin-top: 100px;
+}
+.feature4 .img_box .feature_list .job {
+  color: #191919;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.feature4 .img_box .feature_list p {
+  color: #8d8d8d;
+  text-align: left;
+  padding: 0 26px 10px 16px;
+}
+
+.aboutus_footer {
+  text-align: center;
+  margin: 150px 0 160px 0;
+}
+
+.aboutus_footer .logo {
+  margin-bottom: 23px;
+}
+
+.aboutus_footer .logo img {
+  width: 110px;
+  height: 37px;
+}
+
+.aboutus_footer .slogon {
+  display: inline-block;
+  width: 470px;
+  color: #8d8d8d;
+  padding: 23px 0;
+  border-top: 2px solid #3d2d23;
+  border-bottom: 2px solid #3d2d23;
+}
+
+/*
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mainModule {
+  padding: 0 100px;
+  text-align: left;
+}
+
+.img {
+  width: 100%;
+}
+
+.module {
+  width: 60%;
+  margin: 100px auto;
+}
+
+.moduleTitle {
+  text-align: center;
+  font-size: 18px;
+}
+
+.bigTit {
+  text-align: center;
+  font-size: 60px;
+}
+
+.titLine {
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #000;
+  margin: 10px auto 100px;
+}
+
+.timeTit {
+  width: 100%;
+  margin-left: -310px;
+  margin-top: -675px;
+  z-index: 99;
+}
+
+.bigTime {
+  font-size: 50px;
+}
+
+.eventList {
+  width: 557px;
+  margin: 540px auto 0;
+  padding-top: 35px;
+}
+
+.Ttitle {
+  color: #191919;
+  font-weight: 700;
+  width: 12%;
+}
+
+.Tcontent {
+  color: #8d8d8d;
+  padding: 0px 26px 0px 16px;
+}
+
+.Tdata {
+  width: 10%;
+}
+
+.Tdata p {
+  border-bottom: 1px solid;
+}
+
+.event2 {
+  margin-top: 200px;
+}
+
+*/

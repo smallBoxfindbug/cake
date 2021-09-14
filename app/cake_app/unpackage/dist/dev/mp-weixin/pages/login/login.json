@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "幸福西饼",
+  "usingComponents": {
+    "luanqing-login": "/uni_modules/luanqing-login/components/luanqing-login/luanqing-login"
+  }
+}

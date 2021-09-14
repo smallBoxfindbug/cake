@@ -1,0 +1,85 @@
+.ul {
+    display: flex;
+    height: 100%;
+    padding-left: 10%;
+}
+
+.list {
+    width: 15%;
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.list:nth-of-type(2) {
+    width: 40%;
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+#isShow:hover .twoUl {
+    height: 100px;
+}
+
+.categories_list:hover {
+    z-index: 300;
+}
+
+.categories {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.categories_list {
+    flex: 1;
+}
+
+.twoUl {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    z-index: 99;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    padding: 0 15%;
+    text-align: center;
+    transition: height 0.5s ease;
+    
+}
+
+
+.twoList {
+    margin-left: 7%;
+    font-size: 14px;
+    flex: 1;
+    color: #000 !important;
+}
+
+.p {
+    height: 30px;
+    line-height: 30px;
+}
+
+.active {
+    color: #000;
+}
+
+
+.active:hover {
+    color: #000;
+}
+
+
+.mousEnter:hover {
+    color: #000;
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  user-select: none;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  color: #000000;
+}
+
+a {
+  color: #000;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  border-spacing: 2px;
+  border-color: grey;
+  font-size: 12px;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  height: 28px;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  height: 28px;
+  text-align: left;
+}

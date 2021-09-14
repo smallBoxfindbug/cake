@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "幸福西饼",
+  "usingComponents": {
+    "echone-sku": "/components/echone-sku/echone-sku",
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "uni-goods-nav": "/components/uni-goods-nav/uni-goods-nav"
+  }
+}

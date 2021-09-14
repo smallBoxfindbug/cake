@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "幸福西饼",
+  "usingComponents": {
+    "jm-search": "/components/jm-search/jm-search"
+  }
+}

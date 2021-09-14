@@ -1,0 +1,151 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "幸福西饼"
+
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "幸福西饼"
+			}
+
+		},
+		{
+			"path": "pages/categories/categories",
+			"style": {
+				"navigationBarTitleText": "幸福西饼"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "幸福西饼"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "幸福西饼"
+			}
+		},
+		{
+			"path": "pages/cake/cake",
+			"style": {
+				"navigationBarTitleText": "蛋糕",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/tea/tea",
+			"style": {
+				"navigationBarTitleText": "下午茶",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/gift/gift",
+			"style": {
+				"navigationBarTitleText": "手信",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/minute/minute",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "幸福西饼"
+			}
+
+		},{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"backgroundTextStyle": "dark",
+				"app-plus": {
+					"titleView": false
+				}
+			}
+		}
+        ,{
+            "path" : "pages/material/material",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/material/platform/platform",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "幸福西饼",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/consulting/consulting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "幸福西饼",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "幸福西饼",
+		"navigationBarBackgroundColor": "#ffff7f",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"position":"bottom",
+		"backgroundColor": "#ffff7f",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/index-active.png"
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/categories/categories",
+				"iconPath": "static/tabbar/categories.png",
+				"selectedIconPath": "static/tabbar/categories-active.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/tabbar/cart.png",
+				"selectedIconPath": "static/tabbar/cart-active.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar/profile.png",
+				"selectedIconPath": "static/tabbar/profile-active.png"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

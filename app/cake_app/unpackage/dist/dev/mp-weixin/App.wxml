@@ -1,0 +1,1 @@
+<view><uni-nav-bar vue-id="c31923fa-1" left-icon="back" left-text="返回" right-text="菜单" title="幸福西饼" bind:__l="__l"></uni-nav-bar><index vue-id="c31923fa-2" bind:__l="__l"></index></view>

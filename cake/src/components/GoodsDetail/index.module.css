@@ -1,0 +1,183 @@
+.detail {
+  width: 80%;
+  margin: 120px auto;
+}
+
+.detail h3 {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.inforBox {
+  width: 100%;
+  display: flex;
+}
+
+.Ibanner {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.bigImg {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.bigImg img {
+  width: 80%;
+}
+
+
+
+.imgBox {
+  width: 100%;
+  transition: opacity 0.8s ease;
+  position: absolute;
+  left: 20%;
+  top: 0;
+  opacity: 0;
+}
+
+.imgBox:first-of-type{
+  opacity: 1;
+}
+.smallImg {
+  width: 80%;
+  display: flex;
+  margin-left: 20%;
+  justify-content: space-between;
+}
+
+.smallImg img {
+  width: 20%;
+}
+
+.smallImg img:first-of-type {
+  border: 1px solid red;
+}
+
+.infor {
+  width: 50%;
+  padding: 20px 10%;
+  /* border: 1px solid red; */
+}
+
+.title {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  color: #000;
+  font-weight: bolder;
+}
+
+.tatolPrice {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #874e3d;
+}
+
+.specif {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+}
+
+.specifList {
+  width: 100%;
+  padding: 20px 0;
+  border-top: 1px #874e3d solid;
+  border-bottom: 1px #874e3d solid;
+}
+
+.specifList p {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 30px;
+  color: #874e3d;
+  background-color: #ccc;
+}
+
+.countBox {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  /* align-items: center; */
+}
+.inputBox {
+  width: 80%;
+  display: flex;
+}
+
+.countBox span {
+  color: #874e3d;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+.inputBox input {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.creamentBox {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#creament {
+  border: 1px solid #ccc;
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 2px;
+}
+
+.buy {
+  width: 80%;
+  height: 50px;
+  margin: 20px auto;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #874e3d;
+}
+
+.addCart {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  color: #fff;
+  background-color: #503b2e;
+
+}
+
+.goodsDetail {
+  width: 100%;
+  margin: 20px auto 0;
+}
+
+.goodsDetail p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.goodsDetail img {
+  width: 100%;
+}
+
+.move:hover {
+  color: #000;
+}

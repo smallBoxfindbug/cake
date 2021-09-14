@@ -1,0 +1,12 @@
+2021-06-02 07:34:37,591 INFO {POS} {IP-DISABLED} valid: 192.168.2.1:12000@DEFAULT@DEFAULT_GROUP@@tunmall-mall, region: unknown, msg: client timeout after 15000, last beat: 1622559472634
+
+2021-06-02 07:34:37,591 INFO {POS} {IP-DISABLED} valid: 192.168.2.1:8080@DEFAULT@DEFAULT_GROUP@@renren-fast, region: unknown, msg: client timeout after 15000, last beat: 1622559472598
+
+2021-06-02 07:34:37,591 INFO {POS} {IP-DISABLED} valid: 192.168.2.1:88@DEFAULT@DEFAULT_GROUP@@tunmall-gateway, region: unknown, msg: client timeout after 15000, last beat: 1622559472533
+
+2021-06-02 07:34:42,245 INFO service: DEFAULT_GROUP@@renren-fast {POS} {IP-ENABLED} valid: 192.168.2.1:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-02 07:34:42,246 INFO service: DEFAULT_GROUP@@tunmall-mall {POS} {IP-ENABLED} valid: 192.168.2.1:12000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-02 07:34:42,246 INFO service: DEFAULT_GROUP@@tunmall-gateway {POS} {IP-ENABLED} valid: 192.168.2.1:88@DEFAULT, region: unknown, msg: client beat ok
+

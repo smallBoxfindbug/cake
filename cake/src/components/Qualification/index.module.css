@@ -1,0 +1,61 @@
+.qualification {
+  background: url(./images/background.jpg) no-repeat;
+  background-size: cover;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.contentBox {
+  display: table;
+  width: 95%;
+  height: 820px;
+  background-color: #fff;
+  position: relative;
+  table-layout: fixed;
+  padding: 70px 0 0 0;
+  margin: 100px auto 40px;
+}
+
+.title {
+  margin-left: 25%;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.title img {
+  margin-bottom: 20px;
+}
+
+.titleUl, .listUl {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleList, .list {
+  width: 5%;
+  text-align: center;
+}
+
+.titleList:nth-of-type(3), .list:nth-of-type(3) {
+  width: 30%;
+}
+
+.titleList:nth-of-type(4), .list:nth-of-type(4) {
+  width: 50%;
+}
+
+.contentUl {
+  width: 100%;
+  font-size: 13px;
+  background-color: #fff;
+  position: relative;
+  height: 670px;
+  overflow-y: auto;
+}
+
+.contentlist {
+  width: 100%;
+  padding: 30px 0;
+}

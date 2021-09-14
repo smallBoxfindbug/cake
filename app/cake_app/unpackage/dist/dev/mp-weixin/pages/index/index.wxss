@@ -1,0 +1,265 @@
+
+page {
+	background: #FFF;
+}
+.ov {
+	overflow: hidden;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+	font-size: 30rpx;
+}
+.searchTopBox {
+	width: 100%;
+	background-color: rgb(240, 173, 78);
+	height: 100rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding-top: 15rpx;
+}
+.searchBoxRadius {
+	width: 90%;
+	height: 70rpx;
+	background-color: #fff;
+	margin-left: 5%;
+	overflow: hidden;
+	border-radius: 35rpx;
+}
+.searchBoxIcon {
+	font-size: 40rpx;
+	margin-top: 20rpx;
+	margin-left: 20rpx;
+	float: left;
+}
+.searchBoxIpt {
+	height: 70rpx;
+	line-height: 70rpx;
+	margin-left: 20rpx;
+	float: left;
+}
+.searchBotBox {
+	background-color: rgb(244, 244, 244);
+	width: 100%;
+	margin-top: 30rpx;
+	padding: 15rpx 3%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 70rpx;
+	padding-bottom: 30rpx;
+	z-index: 1;
+	opacity: 0.8;
+}
+.searchHistoryBox {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	overflow: hidden;
+	margin-top: 40rpx;
+}
+.searchHistoryBoxItem {
+	float: left;
+	font-size: 26rpx;
+	color: #666;
+	line-height: 46rpx;
+	height: 46rpx;
+	padding: 0 20rpx;
+	border-radius: 23rpx;
+	margin-left: 15rpx;
+	margin-bottom: 20rpx;
+	border: 1px solid #ccc;
+}
+.close {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 20rpx;
+	padding: 50rpx 20rpx 20rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/*文字颜色*/
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.swiper-item image {
+  width: 750rpx;
+}
+.drawer {
+  width: 500rpx;
+  position: fixed;
+  top: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  z-index: 100;
+  padding: 10px 0px;
+  opacity: 0.8;
+  background-color: #FFFFFF;
+  border-radius: 0 0 15px 0;
+}
+.drawer .drawer_item {
+  width: 28%;
+  margin-left: 10px;
+}
+.drawer .drawer_item .drawer_item_img {
+  display: block;
+  width: 65rpx;
+  margin: 0 auto;
+}
+.drawer .drawer_item text {
+  display: block;
+  font-size: 30rpx;
+  text-align: center;
+}
+.categories-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+}
+.categories-nav .categories-item {
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+}
+.categories-nav .categories-item .categories-img {
+  width: 100rpx;
+  height: 100rpx;
+  border: 1px solid #ffff00;
+  border-radius: 100rpx;
+  padding: 10px;
+  margin: 0 auto;
+}
+.categories-nav .categories-item .categories-img image {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+.categories-nav .categories-item text {
+  display: block;
+  padding: 10px;
+}
+.rmd {
+  width: 100%;
+  margin: 0 auto;
+}
+.rmd .rmd-title {
+  text-align: center;
+  font-size: 50rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  display: block;
+  background-color: #FFFFFF;
+}
+.rmd .rmd-content {
+  background-color: #f4f4f4;
+}
+.rmd .rmd-content .rmd-item {
+  border: 1px solid #f1f1f1;
+  width: 90%;
+  margin: 3% auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  padding: 20rpx;
+  border-radius: 20rpx;
+}
+.rmd .rmd-content .rmd-item .rmd-img {
+  width: 60%;
+  height: 80%;
+  vertical-align: middle;
+}
+.rmd .rmd-content .rmd-item .rmd-img image {
+  width: 90%;
+  height: 100%;
+}
+.rmd .rmd-content .rmd-item .rmd_text {
+  width: 40%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.rmd .rmd-content .rmd-item .rmd_text .synopsis {
+  font-size: 20rpx;
+  color: #aa8175;
+  display: block;
+  width: 100%;
+}
+.rmd .rmd-content .rmd-item .rmd_text .title {
+  font-size: 30rpx;
+  color: #000000;
+  width: 100%;
+  height: 80rpx;
+}
+.rmd .rmd-content .rmd-item .rmd_text .price {
+  text-align: left;
+  margin-top: 5px;
+  display: block;
+  color: red;
+  font-size: 20rpx;
+  width: 100%;
+  margin-top: 20rpx;
+  height: 60rpx;
+}
+.rmd .rmd-content .isShow {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -40rpx;
+  padding: 20rpx;
+  text-align: center;
+  font-size: rbg(170, 129, 117);
+  font-size: 30rpx;
+  background-color: #FFFFFF;
+}
+

@@ -1,0 +1,36 @@
+2021-06-01 07:45:24,637 INFO {POS} {IP-DISABLED} valid: 192.168.2.1:88@DEFAULT@DEFAULT_GROUP@@tunmall-gateway, region: unknown, msg: client timeout after 15000, last beat: 1622473143028
+
+2021-06-01 07:45:24,637 INFO {POS} {IP-DISABLED} valid: 192.168.2.1:12000@DEFAULT@DEFAULT_GROUP@@tunmall-mall, region: unknown, msg: client timeout after 15000, last beat: 1622473143028
+
+2021-06-01 07:45:24,637 INFO {POS} {IP-DISABLED} valid: 192.168.2.1:8080@DEFAULT@DEFAULT_GROUP@@renren-fast, region: unknown, msg: client timeout after 15000, last beat: 1622473143028
+
+2021-06-01 07:45:29,178 INFO service: DEFAULT_GROUP@@renren-fast {POS} {IP-ENABLED} valid: 192.168.2.1:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-01 07:45:29,179 INFO service: DEFAULT_GROUP@@tunmall-mall {POS} {IP-ENABLED} valid: 192.168.2.1:12000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-01 07:45:29,180 INFO service: DEFAULT_GROUP@@tunmall-gateway {POS} {IP-ENABLED} valid: 192.168.2.1:88@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-01 07:45:31,346 INFO DEFAULT_GROUP@@tunmall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-01 07:45:31,346 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@tunmall-gateway, ips: 
+
+2021-06-01 07:45:31,346 INFO DEFAULT_GROUP@@tunmall-mall {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-01 07:45:31,346 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@tunmall-mall, ips: 
+
+2021-06-01 07:45:31,346 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-01 07:45:31,346 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2021-06-01 07:45:34,182 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-01 07:45:34,182 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.2.1:8080_true,
+
+2021-06-01 07:45:34,195 INFO DEFAULT_GROUP@@tunmall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-01 07:45:34,195 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@tunmall-gateway, ips: 192.168.2.1:88_true,
+
+2021-06-01 07:45:34,195 INFO DEFAULT_GROUP@@tunmall-mall {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-06-01 07:45:34,195 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@tunmall-mall, ips: 192.168.2.1:12000_true,
+

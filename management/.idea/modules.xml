@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cake.iml" filepath="$PROJECT_DIR$/cake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tunmall-gateway/tunmall-gateway.iml" filepath="$PROJECT_DIR$/tunmall-gateway/tunmall-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tunmall-mall/tunmall-mall.iml" filepath="$PROJECT_DIR$/tunmall-mall/tunmall-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tunmall-common/tunmall.common.iml" filepath="$PROJECT_DIR$/tunmall-common/tunmall.common.iml" />
+    </modules>
+  </component>
+</project>

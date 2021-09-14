@@ -1,0 +1,14 @@
+package com.tunpu.tunmall.mall;
+import com.tunpu.tunmall.mall.entity.GoodsEntity;
+import com.tunpu.tunmall.mall.service.GoodsService;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import java.util.List;
+
+
+@SpringBootTest
+class TunmallMallApplicationTests {
+
+}

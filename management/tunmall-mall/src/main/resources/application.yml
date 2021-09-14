@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    username: root
+    password: 522636hyq
+    url: jdbc:mysql://124.71.230.178:3306/cake?characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5tLaSSnD8jidFENnX2rk
+      secret-key: aLnZfsUPrb55qnD3ZbEL83wNoDd9js
+      oss:
+        endpoint: oss-cn-beijing.aliyuncs.com
+  application:
+    name: tunmall-mall
+
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+
+server:
+  port: 12000

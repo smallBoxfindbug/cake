@@ -1,0 +1,10 @@
+2021-05-29 15:21:36,878|192.168.2.1|tunmall-gateway|DEFAULT_GROUP|9a5a0aff-defa-4fba-8d63-6ffc722a04ed|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-05-29 15:21:37,170|192.168.2.1|tunmall-gateway.properties|DEFAULT_GROUP|9a5a0aff-defa-4fba-8d63-6ffc722a04ed|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-05-29 15:22:26,648|192.168.2.1|tunmall-mall|DEFAULT_GROUP|2d3d86e1-7a81-490c-b954-fbcccb7c95b7|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-05-29 15:22:26,651|192.168.2.1|tunmall-mall.properties|DEFAULT_GROUP|2d3d86e1-7a81-490c-b954-fbcccb7c95b7|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-05-29 15:22:26,908|192.168.2.1|datasource.yml|dev|2d3d86e1-7a81-490c-b954-fbcccb7c95b7|unknown|1621323869698|pull|ok|949077210|127.0.0.1
+2021-05-29 15:22:26,908|192.168.2.1|other.yml|dev|2d3d86e1-7a81-490c-b954-fbcccb7c95b7|unknown|1621323953629|pull|ok|948993279|127.0.0.1
+2021-05-29 15:22:26,908|192.168.2.1|mybatis.yml|dev|2d3d86e1-7a81-490c-b954-fbcccb7c95b7|unknown|1621323909890|pull|ok|949037018|127.0.0.1
+2021-05-29 15:23:02,718|192.168.2.1|renren-fast|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-05-29 15:23:02,724|192.168.2.1|renren-fast.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-05-29 15:23:02,727|192.168.2.1|renren-fast-dev.properties|DEFAULT_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
